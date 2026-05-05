@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   authors: [{ name: "GoldenBull" }],
   alternates: {
     canonical: SITE_URL,
+    languages: {
+      'en-US': SITE_URL,
+      'zh-TW': `${SITE_URL}/zh-tw`,
+    },
   },
   icons: {
     icon: [

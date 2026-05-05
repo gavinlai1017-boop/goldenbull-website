@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Risk Disclaimer | GoldenBull",
-  description: "Important risk disclosure for XAUUSD trading signals. Understand the risks involved in forex and CFD trading before using our services.",
+  title: "Risk Disclaimer | GoldenBull — XAUUSD Trading Signal Risk Disclosure",
+  description: "Read the risk disclaimer for GoldenBull XAUUSD trading signals. Understand the risks of forex, CFD, and gold copy trading before using our Pepperstone-verified services.",
 };
 
 export default function DisclaimerPage() {
