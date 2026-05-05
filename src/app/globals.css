@@ -1,17 +1,57 @@
 @import "tailwindcss";
 
 :root {
-  --color-gold: #D4AF37;
-  --color-gold-light: #FFD700;
-  --color-dark: #1A1A2E;
-  --color-dark-light: #16213E;
-  --color-silver: #C0C0C0;
+  /* Colors - Expanded for Premium Feel */
+  --gold-primary: #D4AF37;
+  --gold-bright: #FFD700;
+  --gold-mid: #B8960C;
+  --dark-deepest: #0D0D1A;
+  --dark-primary: #1A1A2E;
+  --dark-secondary: #16213E;
+  --silver-primary: #C0C0C0;
+  --silver-muted: #999999;
+  --white: #FFFFFF;
+  --white-soft: #E0E0E0;
+  --green-success: #4CAF50;
+  --red-danger: #E53935;
+
+  /* Spacing (8px scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 96px;
+
+  /* Typography */
+  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Roboto Mono', monospace;
+
+  /* Radii */
+  --radius-default: 8px;
+
+  /* Shadows */
+  --shadow-resting: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-hover: 0 4px 16px rgba(0,0,0,0.4), 0 0 8px rgba(212,175,55,0.1);
+  --shadow-overlay: 0 8px 32px rgba(0,0,0,0.6);
+
+  /* Gold Glow */
+  --glow-gold: 0 0 20px rgba(212,175,55,0.3), 0 0 60px rgba(212,175,55,0.1);
+
+  /* Gradients */
+  --gradient-cta: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-bright) 50%, var(--gold-primary) 100%);
+  --gradient-dark-fade: linear-gradient(180deg, var(--dark-primary) 0%, var(--dark-deepest) 100%);
+  --gradient-surface: linear-gradient(135deg, var(--dark-primary) 0%, var(--dark-secondary) 100%);
+  --gradient-border: linear-gradient(135deg, var(--gold-primary), var(--silver-primary), var(--gold-primary));
 }
 
 body {
-  background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-dark-light) 100%);
-  color: white;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--dark-deepest);
+  color: var(--white-soft);
+  font-family: var(--font-primary);
+  margin: 0;
 }
 
 /* Custom scrollbar */
@@ -20,17 +60,17 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-dark);
+  background: var(--dark-deepest);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-gold);
+  background: var(--gold-primary);
   border-radius: 4px;
 }
 
-/* Gold gradient text */
+/* Premium Text Effects */
 .text-gradient-gold {
-  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-light) 100%);
+  background: var(--gradient-cta);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -50,35 +90,49 @@ body {
 
 .hover-lift:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 40px rgba(212, 175, 55, 0.2);
+  box-shadow: var(--shadow-hover);
 }
 
-/* CTA Button */
+/* Premium CTA Button */
 .btn-primary {
-  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-light) 100%);
-  color: var(--color-dark);
-  font-weight: 600;
-  padding: 12px 32px;
-  border-radius: 8px;
+  background: var(--gradient-cta);
+  color: var(--dark-primary);
+  font-weight: 700;
+  padding: 14px 36px;
+  border-radius: var(--radius-default);
   transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.4);
+  transform: translateY(-2px);
+  box-shadow: var(--glow-gold);
 }
 
 .btn-secondary {
   background: transparent;
-  border: 2px solid var(--color-silver);
-  color: white;
-  font-weight: 600;
-  padding: 12px 32px;
-  border-radius: 8px;
+  border: 1px solid var(--silver-primary);
+  color: var(--white);
+  font-weight: 500;
+  padding: 14px 36px;
+  border-radius: var(--radius-default);
   transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-secondary:hover {
-  border-color: var(--color-gold);
-  color: var(--color-gold);
+  border-color: var(--gold-primary);
+  color: var(--gold-primary);
 }
+
+/* Utility Classes */
+.text-gold { color: var(--gold-primary); }
+.text-silver { color: var	silver-primary); }
+.text-success { color: var(--green-success); }
+.text-danger { color: var(--red-danger); }

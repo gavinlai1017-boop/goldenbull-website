@@ -1,0 +1,56 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0E1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="150" fill="#D4AF37" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="200" fill="#D4AF37" opacity="0.05"/>
+  
+  <!-- Bull icon (simplified) -->
+  <g transform="translate(540, 180)">
+    <path d="M60 0 C80 0 100 20 100 45 C100 70 80 90 60 90 C40 90 20 70 20 45 C20 20 40 0 60 0" fill="url(#goldGradient)" opacity="0.9"/>
+    <ellipse cx="60" cy="50" rx="30" ry="25" fill="#D4AF37"/>
+    <circle cx="45" cy="45" r="5" fill="#0A0E1A"/>
+    <circle cx="75" cy="45" r="5" fill="#0A0E1A"/>
+    <path d="M35 65 Q60 80 85 65" stroke="#0A0E1A" stroke-width="3" fill="none"/>
+    <line x1="25" y1="20" x2="15" y2="0" stroke="url(#goldGradient)" stroke-width="4" stroke-linecap="round"/>
+    <line x1="95" y1="20" x2="105" y2="0" stroke="url(#goldGradient)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="600" y="320" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="url(#goldGradient)">
+    GoldenBull
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF" opacity="0.9">
+    Professional XAUUSD Copy Trading Signals
+  </text>
+  
+  <!-- Myfxbook Badge -->
+  <g transform="translate(520, 430)">
+    <rect x="0" y="0" width="160" height="40" rx="8" fill="#1A1A2E" stroke="#D4AF37" stroke-width="1"/>
+    <text x="80" y="26" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#D4AF37">
+      ✓ Myfxbook Verified
+    </text>
+  </g>
+  
+  <!-- Bottom decoration -->
+  <rect x="0" y="610" width="1200" height="20" fill="#D4AF37" opacity="0.3"/>
+  
+  <!-- Website URL -->
+  <text x="600" y="580" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.6">
+    www.goldenbullnet.com
+  </text>
+</svg>

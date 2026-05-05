@@ -33,7 +33,7 @@ export default function PerformanceSection() {
                 Myfxbook Widget Integration
               </p>
               <a
-                href="https://www.myfxbook.com"
+                href="https://www.myfxbook.com/members/GoldenBull_net/goldenbull-net/11928842"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 text-[#D4AF37] hover:text-[#FFD700] transition-colors"
