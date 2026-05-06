@@ -13,8 +13,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-lg overflow-hidden">
-              <div className="w-full h-full bg-gradient-to-br from-[#D4AF37] to-[#FFD700] flex items-center justify-center text-[#1A1A2E] font-bold text-xl">
-                🐂
+              <div className="w-full h-full bg-gradient-to-br from-[#D4AF37] to-[#FFD700] flex items-center justify-center">
+                <span className="text-[#1A1A2E] font-bold text-xl" style={{transform: 'translateY(-2px)'}}>🐂</span>
               </div>
             </div>
             <span className="text-xl font-bold text-gradient-gold">GoldenBull</span>

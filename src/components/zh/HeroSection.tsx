@@ -10,8 +10,8 @@ export default function HeroSection() {
         {/* Logo */}
         <div className="mb-8 flex justify-center">
           <div className="w-32 h-32 rounded-2xl overflow-hidden shadow-2xl shadow-[#D4AF37]/20 hover-lift">
-            <div className="w-full h-full bg-gradient-to-br from-[#D4AF37] to-[#FFD700] flex items-center justify-center text-[#1A1A2E] text-6xl">
-              🐂
+            <div className="w-full h-full bg-gradient-to-br from-[#D4AF37] to-[#FFD700] flex items-center justify-center">
+              <span className="text-[#1A1A2E] text-6xl" style={{transform: 'translateY(-4px)'}}>🐂</span>
             </div>
           </div>
         </div>
