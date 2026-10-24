@@ -16,8 +16,8 @@ export default function Footer() {
               <span className="text-xl font-bold text-gradient-gold">GoldenBull</span>
             </div>
             <p className="text-gray-400 text-sm max-w-md">
-              Professional XAUUSD copy trading signals verified by Myfxbook.
-              Join our community and start your journey to financial freedom.
+              Explore XAUUSD gold copy trading, review the linked performance profile,
+              and understand CFD risks before deciding whether to participate.
             </p>
             {/* Social Links */}
             <div className="flex space-x-4 mt-4">
@@ -61,6 +61,16 @@ export default function Footer() {
               <li>
                 <Link href="#faq" className="text-gray-400 hover:text-[#D4AF37] transition-colors">
                   FAQ
+                </Link>
+              </li>
+              <li>
+                <Link href="/guides/evaluate-gold-copy-trading" className="text-gray-400 hover:text-[#D4AF37] transition-colors">
+                  Gold Copy Trading Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="/zh/guides/evaluate-gold-copy-trading" className="text-gray-400 hover:text-[#D4AF37] transition-colors">
+                  黃金跟單評估指南
                 </Link>
               </li>
             </ul>

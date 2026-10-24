@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | GoldenBull — XAUUSD Trading Signal Data Protection",
-  description: "GoldenBull privacy policy for XAUUSD trading signal services. Learn how we collect, use, and protect your personal data across Pepperstone, Myfxbook, and Telegram platforms.",
+  description: "Read how GoldenBull describes the collection, use and protection of personal data in its privacy policy.",
+  alternates: { canonical: "/legal/privacy" },
 };
 
 export default function PrivacyPage() {

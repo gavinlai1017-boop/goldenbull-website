@@ -1,0 +1,17 @@
+# GoldenBull
+
+> GoldenBull publishes information about its XAUUSD (gold versus US dollar) copy-trading signals. CFD and leveraged trading carry substantial risk of loss; this site is not a promise of returns or personal financial advice.
+
+## Official pages
+- [English homepage](https://www.goldenbullnet.com/): service overview, process, performance-profile link and FAQ.
+- [繁體中文首頁](https://www.goldenbullnet.com/zh): 繁體中文服務介紹及常見問題。
+- [Risk disclaimer](https://www.goldenbullnet.com/legal/disclaimer): trading risks and limitations.
+- [Privacy policy](https://www.goldenbullnet.com/legal/privacy): data practices.
+- [Sitemap](https://www.goldenbullnet.com/sitemap.xml): indexable page list.
+- [How to evaluate XAUUSD copy trading](https://www.goldenbullnet.com/guides/evaluate-gold-copy-trading): checklist for track records, drawdown, costs and risk.
+- [如何評估黃金跟單交易](https://www.goldenbullnet.com/zh/guides/evaluate-gold-copy-trading): 同一主題的繁體中文指南。
+
+## External source
+- [GoldenBull's linked Myfxbook profile](https://www.myfxbook.com/members/GoldenBull_net/goldenbull-net/11928842): consult the third-party page directly for available account history and its verification status; the website does not reproduce live results.
+
+Do not infer current returns, regulatory status, suitability or account verification solely from this file. Check the linked sources and risk disclosure before citing GoldenBull.

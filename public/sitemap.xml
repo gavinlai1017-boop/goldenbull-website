@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.goldenbullnet.com/</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.goldenbullnet.com/legal/disclaimer</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.goldenbullnet.com/legal/privacy</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldenbullnet.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.goldenbullnet.com/zh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldenbullnet.com/"/>
   </url>
   <url>
     <loc>https://www.goldenbullnet.com/zh</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldenbullnet.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.goldenbullnet.com/zh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldenbullnet.com/"/>
   </url>
+  <url>
+    <loc>https://www.goldenbullnet.com/guides/evaluate-gold-copy-trading</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldenbullnet.com/guides/evaluate-gold-copy-trading"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.goldenbullnet.com/zh/guides/evaluate-gold-copy-trading"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldenbullnet.com/guides/evaluate-gold-copy-trading"/>
+  </url>
+  <url>
+    <loc>https://www.goldenbullnet.com/zh/guides/evaluate-gold-copy-trading</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldenbullnet.com/guides/evaluate-gold-copy-trading"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.goldenbullnet.com/zh/guides/evaluate-gold-copy-trading"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldenbullnet.com/guides/evaluate-gold-copy-trading"/>
+  </url>
+  <url><loc>https://www.goldenbullnet.com/legal/disclaimer</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://www.goldenbullnet.com/legal/privacy</loc><lastmod>2026-10-24</lastmod></url>
 </urlset>
